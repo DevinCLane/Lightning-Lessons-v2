@@ -167,8 +167,11 @@
 						</header>
 						<div class="content">
 							<p><strong>Call or email us now</strong> for a free phone consultation</p>
-							<form name="contact" method="POST" data-netlify="true">
+							<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 								<div class="fields">
+									<p class="hidden">
+										<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+									</p>
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
@@ -188,7 +191,7 @@
 							<ul class="items">
 								<li>
 									<h3>Email</h3>
-									<a href="#">hello@lightninglessons.com</a>
+									<a href="https://aemail.com/rk2K">hello [at] lightninglessons [dot] com</a>
 								</li>
 								<li>
 									<h3>Phone</h3>
