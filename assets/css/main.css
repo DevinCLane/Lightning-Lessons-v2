@@ -43,7 +43,6 @@ body {
     color: #f6f6f6;
     content: 'Click to dismiss';
     font: bold 12px/30px sans-serif;
-    height: 30px;
     left: 50%;
     margin-left: -60px;
     position: absolute;
@@ -74,8 +73,7 @@ body {
     color: #000000;
     display: block;
     font: bold 16px/40px sans-serif;
-    height: 40px;
-    position: absolute;
+    position: fixed;
     text-align: center;
     text-decoration: none;
     top: -45px;
