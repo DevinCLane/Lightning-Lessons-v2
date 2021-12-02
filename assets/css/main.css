@@ -33,60 +33,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-/* Alert */
-
-#alert {
-    position: relative;
-}
-#alert:hover:after {
-    background: hsla(0,0%,0%,.8);
-    border-radius: 3px;
-    color: #f6f6f6;
-    content: 'Click to dismiss';
-    font: bold 12px/30px sans-serif;
-    left: 50%;
-    margin-left: -60px;
-    position: absolute;
-    text-align: center;
-    top: 50px;
-	width: 120px;
-	z-index: 999;
-}
-#alert:hover:before {
-    border-bottom: 10px solid hsla(0,0%,0%,.8);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    content: '';
-    height: 0;
-    left: 50%;
-    margin-left: -10px;
-    position: absolute;
-    top: 40px;
-    width: 0;
-}
-#alert:target {
-    display: none;
-}
-.alert {
-    background-color: #faf75c;
-    background-size: 20px 20px;
-    box-shadow: 0 5px 0 hsla(0,0%,0%,.1);
-    color: #000000;
-    display: block;
-    font: bold 16px/40px sans-serif;
-    position: fixed;
-    text-align: center;
-	text-decoration: none;
-	margin-bottom: auto;
-    top: -45px;
-	width: 100%;
-	z-index: 999;
-    -webkit-animation: alert 1s ease forwards;
-       -moz-animation: alert 1s ease forwards;
-        -ms-animation: alert 1s ease forwards;
-         -o-animation: alert 1s ease forwards;
-            animation: alert 1s ease forwards;
-}
 
 /* Animation */
 
